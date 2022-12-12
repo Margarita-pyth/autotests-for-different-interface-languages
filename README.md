@@ -12,6 +12,7 @@
 - Использовался интепритатор Python3
 - Склонируйте репозиторий
 - Создайте и активируйте виртуальное окружение
+- Установите PYTEST командой: pip install pytest==7.1.2
 - Установите SELENIUM командой: pip install selenium==4.* (проверка установки: pip list)
 - Установите драйвер для браузера  
 - - Chrome: chromedriver: https://sites.google.com/chromium.org/driver/
