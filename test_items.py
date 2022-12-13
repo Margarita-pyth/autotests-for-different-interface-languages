@@ -11,5 +11,8 @@ def test_guest_should_see_the_basket_link(browser):
     basket_link = browser.find_elements(By.CSS_SELECTOR, "span.btn-group a")
     assert len(basket_link) == 1 , "Нет кнопки корзины"
 
+# pytest --language=es команда запуска скрипта (по умолчанию выполнение в Chrome)
+
+
 
 
